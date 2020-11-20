@@ -28,7 +28,7 @@ public class UserController{
         }
 
     }
-    @GetMapping("/health")
+    @GetMapping(path="/health")
     public  String isOk(){
         return "OK";
     }
