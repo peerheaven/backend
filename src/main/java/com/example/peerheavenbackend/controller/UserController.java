@@ -28,4 +28,8 @@ public class UserController{
         }
 
     }
+    @GetMapping("/health")
+    public  String isOk(){
+        return "OK";
+    }
 }
