@@ -24,7 +24,7 @@ public class UserController{
             User user= userService.getUserByEmail(email);
             return new ResponseEntity<Object>(user,HttpStatus.OK);
         }catch (Exception e){
-            return new ResponseEntity<Object>(HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<Object>("Multiple account",HttpStatus.INTERNAL_SERVER_ERROR);
         }
 
     }
