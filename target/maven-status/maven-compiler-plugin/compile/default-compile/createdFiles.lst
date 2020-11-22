@@ -1,4 +1,5 @@
 com\example\peerheavenbackend\service\UserService.class
+com\example\peerheavenbackend\config\GlobalCorsConfig.class
 com\example\peerheavenbackend\controller\UserController.class
 com\example\peerheavenbackend\domain\User.class
 com\example\peerheavenbackend\service\Impl\UserServiceImpl.class

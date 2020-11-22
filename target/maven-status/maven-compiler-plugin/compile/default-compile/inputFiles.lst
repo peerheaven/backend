@@ -1,5 +1,6 @@
 D:\Peerheaven\backend\src\main\java\com\example\peerheavenbackend\domain\User.java
 D:\Peerheaven\backend\src\main\java\com\example\peerheavenbackend\service\UserService.java
+D:\Peerheaven\backend\src\main\java\com\example\peerheavenbackend\config\GlobalCorsConfig.java
 D:\Peerheaven\backend\src\main\java\com\example\peerheavenbackend\PeerheavenbackendApplication.java
 D:\Peerheaven\backend\src\main\java\com\example\peerheavenbackend\controller\UserController.java
 D:\Peerheaven\backend\src\main\java\com\example\peerheavenbackend\service\Impl\UserServiceImpl.java
