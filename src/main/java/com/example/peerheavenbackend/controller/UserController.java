@@ -18,8 +18,8 @@ public class UserController{
     public void createUser(@RequestBody  User user){
         userService.createUser(user);
     }
-    @GetMapping(path = "/v1/user/get/{email}",produces = "application/json")
-    public ResponseEntity<Object> getUserByEmail(@PathVariable("email")String email){
+    @GetMapping(path = "/v1/user/get",produces = "application/json")
+    public ResponseEntity<Object> getUserByEmail(@RequestParam String email){
         try{
             User user= userService.getUserByEmail(email);
             return new ResponseEntity<Object>(user,HttpStatus.OK);

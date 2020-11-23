@@ -15,7 +15,7 @@ public class GlobalCorsConfig extends WebMvcConfigurerAdapter {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/*")
-                .allowedOrigins(origin)
+                .allowedOriginPatterns(origin,"*")
                 .allowedMethods("GET","POST","PUT","DELETE")
                 .maxAge(50000);
     }
